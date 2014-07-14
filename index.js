@@ -1,2 +1,8 @@
 var fs = require('fs');
-exports.VirtualProperty = require('./lib/virtualproperty');
+var VirtualProperty = require('./lib/virtualproperty');
+
+exports.prototype = VirtualProperty.prototype;
+
+exports.expose = function () {
+  return new VirtualProperty();
+};
