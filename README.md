@@ -1,6 +1,8 @@
 
 # virtualproperty
 
+  [![build status][travis-image]][travis-url]
+
   Make your simple object to get power of virtual getter or setter like Python do with __set__ __get__.
 
 ## Installation
