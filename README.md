@@ -11,6 +11,16 @@ $ npm install virtualproperty
 
 ## Example
 
+## Running tests
+
+  Install dev deps
+
+    $ npm install -d
+
+  Run the tests
+
+    $ npm test
+
 ## License
 
   MIT
