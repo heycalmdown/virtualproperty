@@ -37,3 +37,6 @@ assert(a.b === 'a');
 ## License
 
   MIT
+
+[travis-image]: https://img.shields.io/travis/heycalmdown/virtualproperty.svg?style=flat
+[travis-url]: https://travis-ci.org/heycalmdown/virtualproperty
