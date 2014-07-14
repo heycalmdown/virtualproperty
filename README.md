@@ -11,6 +11,17 @@ $ npm install virtualproperty
 
 ## Example
 
+```js
+var virtualproperty = require('virtualproperty');
+var a = virtualproperty.expose();
+a.prototype.__get__ = function (key) {
+  return 'a';
+};
+
+assert(a.a === 'a');
+assert(a.b === 'a');
+```
+
 ## Running tests
 
   Install dev deps
@@ -24,4 +35,3 @@ $ npm install virtualproperty
 ## License
 
   MIT
-
